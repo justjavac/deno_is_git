@@ -23,7 +23,7 @@ export function isGitSync(filepath = Deno.cwd()): boolean {
 }
 
 /**
- * Return `true` if the file apth is a git repository synchronously.
+ * Return `true` if the file path is a git repository synchronously.
  *
  * Requires the `--allow-read` flag.
  * 
